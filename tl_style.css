@@ -1,0 +1,59 @@
+.tlradio {
+width: 44px;
+height: 20px;
+background: #f00;
+display: none;
+}
+
+.tlradio+label span{
+
+display: inline-block;
+margin: 0 16;
+width: 20px;
+height: 20px;
+background: url(images/radio.png);
+
+}
+.tlradio:checked+label span{
+
+
+background: url(images/radio.png) no-repeat -20px 0;
+
+}
+
+#line {
+
+width: 500px;
+height: 200px;
+white-space: nowrap;
+overflow: hidden;
+position: relative;
+
+}
+
+#inner{
+
+width: 4500px;
+position: absolute;
+top: 0;
+left: 0;
+-webkit-transition-property: left;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease;
+
+}
+
+.slide {
+
+width: 500px;
+height: 200px;
+display: inline-block;
+
+}
+
+#time {
+
+width: 500px;
+background: url(images/line.png) repeat-x 0 0;
+
+}
